@@ -106,8 +106,8 @@ class TestFractions(unittest.TestCase):
         self.assertEqual(frac2float([1, 2]), 0.5)
         self.assertEqual(frac2float([10, 2]), 5.0)
 
-    def tearDown(self):
-        self.zero = [0, 1]
+    def tearDown(self): pass
 
 if __name__ == '__main__':
+
     unittest.main()     # uruchamia wszystkie testy
